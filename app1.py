@@ -57,7 +57,7 @@ groq_api_key=os.getenv("GROQ_API_KEY")
 os.environ["GOOGLE_API_KEY"]=os.getenv("GOOGLE_API_KEY")
 
 
-st.title("IIIT Lucknow btech counselling chatbot")
+st.title("IIIT Lucknow Counselling Chatbot")
 st.markdown('Note: This is an experimental project the answers can be inaccurate')
 llm=ChatGroq(groq_api_key=groq_api_key,model_name="Gemma-7b-it")
 
@@ -101,11 +101,11 @@ for message in st.session_state.messages:
 # Accept user input and display chat messages
 if prompt := st.chat_input("How can i help you?"):
     # Display user message in chat message container
-    with st.chat_message("user"):
+    with st.chat_message("user",avatar="🧑‍🎓"):
         st.markdown(prompt)
     # Add user message to chat history
     st.session_state.messages.append({"role": "user", "content": prompt})
-    with st.chat_message("assistant"):
+    with st.chat_message("assistant",avatar="👩‍🦰"):
         start=time.process_time()
         time_msg="The time taken to get the response is {}".format(time.process_time()-start)
         further_info=" \n For further information refer the telegram group https://t.me/iiitlcounselling or the official website https://iiitl.ac.in. \n The answers can be outdated and they should refer the official website for the latest information."
