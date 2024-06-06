@@ -36,7 +36,8 @@ llm=ChatGroq(groq_api_key=groq_api_key,model_name="Gemma-7b-it")
 
 prompt=ChatPromptTemplate.from_template(
     """
-    Answer the question of the students based on the context of the conversation and the previous replies to the similar questions.
+    You are a female receptionist in the IIIT Lucknow counselling office.
+    Answer the question of the students based on the context provided either from the college website or from the conversation of the counselling group. politely reply in a formal manner as a first person without indicating as if you are a chatbot.
     <context>
     {context}
     <context>
@@ -48,9 +49,9 @@ prompt=ChatPromptTemplate.from_template(
 def vector_embedding():
     if 'vectors' not in st.session_state:
         st.session_state.embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-        st.session_state.vectors =FAISS.load_local('chat_history',st.session_state.embeddings,allow_dangerous_deserialization=True)
+        st.session_state.vectors =FAISS.load_local('combined',st.session_state.embeddings,allow_dangerous_deserialization=True)
 vector_embedding()
-prompt1=st.text_input("Please enter your query")
+# prompt1=st.text_input("Please enter your query")
 
 
 
@@ -58,17 +59,29 @@ import time
 document_chain=create_stuff_documents_chain(llm,prompt)
 retriever=st.session_state.vectors.as_retriever()
 retriever_chain=create_retrieval_chain(retriever,document_chain) 
-if prompt1:
-    
-    start=time.process_time()
-    response=retriever_chain.invoke({'input':prompt1})
-    st.write(response['answer'])
-    st.markdown("The time taken to get the response is {}".format(time.process_time()-start))
-    st.markdown("for further information refer the telegram group https://t.me/iiitlcounselling or the official website https://iiitl.ac.in. The answers can be outdated and they should refer the official website for the latest information.")
+# Initialize chat history
+if "messages" not in st.session_state:
+    st.session_state.messages = []
 
-    # with st.expander("Document similarity search"):
-    #     for i,doc in enumerate(response['context']):
-    #         st.write(doc.page_content)
-    #         st.write("-------------------------------")
+# Display chat messages from history on app rerun
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+# Accept user input and display chat messages
+if prompt := st.chat_input("How can i help you?"):
+    # Display user message in chat message container
+    with st.chat_message("user"):
+        st.markdown(prompt)
+    # Add user message to chat history
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("assistant"):
+        start=time.process_time()
+        time_msg="The time taken to get the response is {}".format(time.process_time()-start)
+        further_info=" \n For further information refer the telegram group https://t.me/iiitlcounselling or the official website https://iiitl.ac.in. \n The answers can be outdated and they should refer the official website for the latest information."
+        response=retriever_chain.invoke({'input':prompt})['answer']
+        # response+=time_msg+further_info
+        st.markdown(response)
+    st.session_state.messages.append({"role": "assistant", "content": response})
     
         
