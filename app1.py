@@ -13,11 +13,17 @@ from dotenv import load_dotenv
 from typing import List
 from groq import Groq
 
+
+load_dotenv()
+## loading the google and groq api key form the .env file
+groq_api_key=os.getenv("GROQ_API_KEY")
+os.environ["GOOGLE_API_KEY"]=os.getenv("GOOGLE_API_KEY")
+
+
 client = Groq(
     api_key=os.getenv("GROQ_API_KEY"),
 )
 
-load_dotenv()
 
 def query_modify(query):
 
@@ -52,9 +58,6 @@ with st.sidebar:
     st.image('santosh.png')
     st.write("Santosh Kumar a student of MSc AI & ML in IIIT Lucknow ")
 
-## loading the google and groq api key form the .env file
-groq_api_key=os.getenv("GROQ_API_KEY")
-os.environ["GOOGLE_API_KEY"]=os.getenv("GOOGLE_API_KEY")
 
 
 st.title("IIIT Lucknow Counselling Chatbot")
