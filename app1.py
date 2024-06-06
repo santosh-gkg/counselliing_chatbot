@@ -11,10 +11,40 @@ from langchain_community.document_loaders import BSHTMLLoader
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
 from typing import List
+from groq import Groq
+
+client = Groq(
+    api_key=os.getenv("GROQ_API_KEY"),
+)
 
 load_dotenv()
 
+def query_modify(query):
 
+    chat_completion = client.chat.completions.create(
+        messages=[
+            {
+                "role": "system",
+                "content": "you are a query modifier which elaborate the student query at iiit lucknow and return it to get a  better similarity search output with FAISS index. ",
+            },
+            {
+                "role": "user",
+                "content": "how is the sports?",
+            },
+            {
+                "role":"assistant",
+                "content":"How is the sports at IIIT Lucknow? how is the sports infrastructure at iiit lucknow? what are the various sports available?  "
+
+            },
+            {
+                "role": "user",
+                "content": query,
+            }
+        ],
+        model="llama3-8b-8192",
+    )
+
+    return chat_completion.choices[0].message.content
 with st.sidebar:
     st.title("About")
     st.markdown("This is a chatbot for IIIT Lucknow btech counselling. The chatbot is trained on the previous conversations in the Telegram Counselling group. If no good answer found then students can refer the telegram group https://t.me/iiitlcounselling or the official website https://iiitl.ac.in for more information.")
@@ -36,8 +66,8 @@ llm=ChatGroq(groq_api_key=groq_api_key,model_name="Gemma-7b-it")
 
 prompt=ChatPromptTemplate.from_template(
     """
-    You are a female receptionist in the IIIT Lucknow counselling office.
-    Answer the question of the students based on the context provided either from the college website or from the conversation of the counselling group. politely reply in a formal manner as a first person without indicating as if you are a chatbot.
+    You are a female receptionist in the IIIT Lucknow counselling office. you always try to present the positive sides of the college to the students.
+    Answer the question of the students based on the context provided either from the college website or from the conversation of the counselling group. politely reply in a formal manner as a first person without indicating as if you are a chatbot. try to reply in bulltes points.
     <context>
     {context}
     <context>
@@ -79,6 +109,7 @@ if prompt := st.chat_input("How can i help you?"):
         start=time.process_time()
         time_msg="The time taken to get the response is {}".format(time.process_time()-start)
         further_info=" \n For further information refer the telegram group https://t.me/iiitlcounselling or the official website https://iiitl.ac.in. \n The answers can be outdated and they should refer the official website for the latest information."
+        query=query_modify(prompt)
         response=retriever_chain.invoke({'input':prompt})['answer']
         # response+=time_msg+further_info
         st.markdown(response)
