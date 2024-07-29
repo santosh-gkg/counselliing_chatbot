@@ -38,7 +38,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 38,nathan,coulter-nile,nathan coulter-nile,11/10/1987,m,right-hand-bat,right-arm-fast,bowling allrounder,oceania,australia
 39,chris,lynn,chris lynn,10/4/1990,m,right-hand-bat,slow-left-arm-orthodox,batsman,oceania,australia
 40,glenn,maxwell,glenn maxwell,14/10/1988,m,right-hand-bat,right-arm-offbreak,allrounder,oceania,australia
-41,d'arcy,short,d'arcy short,9/8/1990,m,left-hand-bat,slow-left-arm-orthodox,batsman,oceania,australia
+41,d arcy,short,d arcy short,9/8/1990,m,left-hand-bat,slow-left-arm-orthodox,batsman,oceania,australia
 42,billy,stanlake,billy stanlake,4/11/1994,m,left-hand-bat,right-arm-fast,bowler,oceania,australia
 43,andrew,tye,andrew tye,12/12/1986,m,right-hand-bat,right-arm-fast-medium,bowler,oceania,australia
 44,adam,zampa,adam zampa,31/03/1992,m,right-hand-bat,legbreak-googly,bowler,oceania,australia
@@ -348,7 +348,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 355,mohammad,naveed,mohammad naveed,3/6/1987,m,right-hand-bat,right-arm-fast-medium,bowler,asia,united arab emirates
 356,sayed,shirzad,sayed shirzad,1/10/1994,m,right-hand-bat,left-arm-fast-medium,bowler,asia,afghanistan
 357,brendon,mccullum,brendon mccullum,27/09/1981,m,right-hand-bat,right-arm-offbreak,wicketkeeper,oceania,new zealand
-358,kevin,o'brien,kevin o'brien,4/3/1984,m,right-hand-bat,right-arm-fast-medium,batting allrounder,europe,ireland republic
+358,kevin,o brien,kevin o brien,4/3/1984,m,right-hand-bat,right-arm-fast-medium,batting allrounder,europe,ireland republic
 360,paul,stirling,paul stirling,3/9/1990,m,right-hand-bat,right-arm-offbreak,batting allrounder,europe,ireland republic
 361,tymal,mills,tymal mills,12/8/1992,m,right-hand-bat,left-arm-fast,bowler,europe,england
 362,waqar,salamkheil,waqar salamkheil,2/10/2001,m,right-hand-bat,slow-left-arm-orthodox,bowler,asia,afghanistan
@@ -391,7 +391,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 400,david,grant,david grant,24/03/1997,m,right-hand-bat,right-arm-fast-medium,bowler,oceania,australia
 401,wes,agar,wes agar,5/2/1997,m,right-hand-bat,right-arm-fast,bowler,oceania,australia
 402,nicholas,winter,nicholas winter,19/06/1993,m,left-hand-bat,left-arm-fast-medium,bowler,oceania,australia
-403,liam,o'connor,liam o'connor,20/06/1993,m,right-hand-bat,legbreak,bowler,oceania,australia
+403,liam,o connor,liam o connor,20/06/1993,m,right-hand-bat,legbreak,bowler,oceania,australia
 404,michael,cormack,michael cormack,29/06/1997,m,right-hand-bat,right-arm-offbreak,bowler,oceania,australia
 405,max,bryant,max bryant,10/3/1999,m,right-hand-bat,right-arm-fast-medium,batsman,oceania,australia
 406,sam,heazlett,sam heazlett,12/9/1995,m,left-hand-bat,slow-left-arm-orthodox,batsman,oceania,australia
@@ -520,7 +520,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 530,gaby,lewis,gaby lewis,27/03/2001,f,right-hand-bat,legbreak,batsman,europe,ireland republic
 531,lara,maritz,lara maritz,7/1/2001,f,right-hand-bat,right-arm-fast-medium,bowler,europe,ireland republic
 532,ciara,metcalfe,ciara metcalfe,29/09/1979,f,left-hand-bat,legbreak,bowler,europe,ireland republic
-533,lucy,o'reilly,lucy o'reilly,9/11/1999,f,right-hand-bat,right-arm-fast-medium,bowler,europe,ireland republic
+533,lucy,o reilly,lucy o reilly,9/11/1999,f,right-hand-bat,right-arm-fast-medium,bowler,europe,ireland republic
 534,celeste,raack,celeste raack,18/05/1994,f,right-hand-bat,legbreak,bowler,europe,ireland republic
 535,eimear,richardson,eimear richardson,14/09/1986,f,right-hand-bat,right-arm-offbreak,bowler,europe,ireland republic
 536,clare,shillington,clare shillington,8/1/1981,f,right-hand-bat,right-arm-offbreak,batsman,europe,ireland republic
@@ -817,7 +817,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 887,ryan,gibson,ryan gibson,30/12/1993,m,right-hand-bat,right-arm-fast-medium,middle order batter,oceania,australia
 890,daniel,hughes,daniel hughes,16/02/1989,m,left-hand-bat,right-arm-fast-medium,top order batter,oceania,australia
 893,nick,larkin,nick larkin,1/5/1990,m,right-hand-bat,,batsman,oceania,australia
-896,steve,o'keefe,steve o'keefe,9/12/1984,m,right-hand-bat,slow-left-arm-orthodox,allrounder,oceania,australia
+896,steve,o keefe,steve o keefe,9/12/1984,m,right-hand-bat,slow-left-arm-orthodox,allrounder,oceania,australia
 899,kurtis,patterson,kurtis patterson,5/5/1993,m,left-hand-bat,right-arm-offbreak,middle order batter,oceania,australia
 902,daniel,sams,daniel sams,27/10/1992,m,right-hand-bat,left-arm-fast-medium,allrounder,oceania,australia
 905,jason,sangha,jason sangha,8/9/1999,m,right-hand-bat,legbreak,batsman,oceania,australia
@@ -833,7 +833,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 938,jake,doran,jake doran,2/12/1996,m,left-hand-bat,left-arm-fast-medium,wicketkeeper,oceania,australia
 944,jordan,silk,jordan silk,13/04/1992,m,right-hand-bat,,middle order batter,oceania,australia
 947,xavier,bartlett,xavier bartlett,17/12/1998,m,right-hand-bat,right-arm-fast-medium,bowler,oceania,australia
-950,tom,o'connell,tom o'connell,14/06/2000,m,left-hand-bat,legbreak,bowler,oceania,australia
+950,tom,o connell,tom o connell,14/06/2000,m,left-hand-bat,legbreak,bowler,oceania,australia
 953,mohammad,sardar,mohammad sardar,22/09/1999,m,right-hand-bat,,wicketkeeper,asia,afghanistan
 956,jay,lenton,jay lenton,10/8/1990,m,left-hand-bat,,wicketkeeper,oceania,australia
 959,abdullah,mazari,abdullah mazari,1/1/1987,m,left-hand-bat,slow-left-arm-orthodox,bowler,asia,afghanistan
@@ -1162,7 +1162,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 1958,james,franklin,james franklin,7/11/1980,m,left-hand-bat,left-arm-fast-medium,allrounder,oceania,new zealand
 1961,jeetan,patel,jeetan patel,7/5/1980,m,right-hand-bat,right-arm-offbreak,bowler,oceania,new zealand
 1964,andrew,white,andrew white,3/7/1980,m,right-hand-bat,right-arm-offbreak,allrounder,europe,ireland republic
-1967,niall,o'brien,niall o'brien,8/11/1981,m,left-hand-bat,,wicketkeeper,europe,ireland republic
+1967,niall,o brien,niall o brien,8/11/1981,m,left-hand-bat,,wicketkeeper,europe,ireland republic
 1970,trent,johnston,trent johnston,29/04/1974,m,right-hand-bat,right-arm-fast-medium,allrounder,europe,ireland republic
 1973,andre,botha,andre botha,12/9/1975,m,left-hand-bat,right-arm-fast-medium,allrounder,europe,ireland republic
 1976,jeremy,bray,jeremy bray,30/11/1973,m,left-hand-bat,,batsman,europe,ireland republic
@@ -1312,7 +1312,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 2435,vivian,kingma,vivian kingma,23/10/1994,m,right-hand-bat,right-arm-fast-medium,bowler,europe,netherlands
 2438,ahsan,malik,ahsan malik,29/08/1989,m,right-hand-bat,right-arm-fast-medium,bowler,europe,netherlands
 2441,stephan,myburgh,stephan myburgh,28/02/1984,m,left-hand-bat,right-arm-offbreak,batsman,europe,netherlands
-2444,max,o'dowd,max o'dowd,4/3/1994,m,right-hand-bat,right-arm-offbreak,batsman,europe,netherlands
+2444,max,o dowd,max o dowd,4/3/1994,m,right-hand-bat,right-arm-offbreak,batsman,europe,netherlands
 2447,michael,rippon,michael rippon,14/09/1991,m,right-hand-bat,slow-left-arm-orthodox,allrounder,oceania,new zealand
 2450,logan,van beek,logan van beek,7/9/1990,m,right-hand-bat,right-arm-fast-medium,bowler,europe,netherlands
 2453,timm,van der gugten,timm van der gugten,25/02/1991,m,right-hand-bat,right-arm-fast-medium,allrounder,europe,netherlands
@@ -1573,7 +1573,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 3251,jake,reed,jake reed,28/09/1990,m,left-hand-bat,right-arm-fast-medium,bowler,oceania,australia
 3254,tom,beaton,tom beaton,28/11/1990,m,right-hand-bat,right-arm-fast-medium,batsman,oceania,australia
 3257,cameron,stevenson,cameron stevenson,30/10/1992,m,right-hand-bat,right-arm-fast-medium,allrounder,oceania,australia
-3260,thomas,o'donnell,thomas o'donnell,23/10/1996,m,right-hand-bat,left-arm-fast-medium,bowler,oceania,australia
+3260,thomas,o donnell,thomas o donnell,23/10/1996,m,right-hand-bat,left-arm-fast-medium,bowler,oceania,australia
 3263,tom,triffitt,tom triffitt,13/11/1990,m,right-hand-bat,,wicketkeeper,oceania,australia
 3266,adam,voges,adam voges,4/10/1979,m,right-hand-bat,slow-left-arm-orthodox,batsman,oceania,australia
 3269,michael,carberry,michael carberry,29/09/1980,m,left-hand-bat,,batsman,europe,england
@@ -1737,7 +1737,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 3755,josh,shaw,josh shaw,3/1/1996,m,right-hand-bat,right-arm-fast-medium,bowler,europe,england
 3758,jonathan,tattersall,jonathan tattersall,15/12/1994,m,right-hand-bat,legbreak,wicketkeeper,europe,england
 3761,jordan,thompson,jordan thompson,9/10/1996,m,left-hand-bat,right-arm-fast-medium,allrounder,europe,england
-3764,brett,d'oliveira,brett d'oliveira,28/02/1992,m,right-hand-bat,legbreak,allrounder,europe,england
+3764,brett,d oliveira,brett d oliveira,28/02/1992,m,right-hand-bat,legbreak,allrounder,europe,england
 3767,ben,cox,ben cox,2/2/1992,m,right-hand-bat,,wicketkeeper,europe,england
 3770,ed,barnard,ed barnard,20/11/1995,m,right-hand-bat,right-arm-fast-medium,bowler,europe,england
 3773,luke,wood,luke wood,2/8/1995,m,left-hand-bat,left-arm-fast-medium,bowling allrounder,europe,england
@@ -2250,7 +2250,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 5342,erin,fazackerley,erin fazackerley,3/7/1998,f,right-hand-bat,right-arm-fast,batsman,oceania,australia
 5345,katelyn,fryett,katelyn fryett,28/05/1992,f,right-hand-bat,right-arm-fast-medium,bowler,oceania,australia
 5348,corinne,hall,corinne hall,12/10/1987,f,right-hand-bat,right-arm-offbreak,batsman,oceania,australia
-5351,rhiann,o'donnell,rhiann o'donnell,14/04/1998,f,right-hand-bat,right-arm-fast-medium,batsman,oceania,australia
+5351,rhiann,o donnell,rhiann o donnell,14/04/1998,f,right-hand-bat,right-arm-fast-medium,batsman,oceania,australia
 5354,meg,phillips,meg phillips,2/2/1996,f,right-hand-bat,right-arm-fast-medium,bowler,oceania,australia
 5357,veronica,pyke,veronica pyke,4/11/1981,f,right-hand-bat,left-arm-fast-medium,bowler,oceania,australia
 5360,georgia,redmayne,georgia redmayne,8/12/1993,f,left-hand-bat,,wicketkeeper,oceania,australia
@@ -2335,7 +2335,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 5606,sarah,elliott,sarah elliott,4/1/1982,f,right-hand-bat,legbreak-googly,batsman,oceania,australia
 5609,brittany,perry,brittany perry,9/3/1994,f,right-hand-bat,,allrounder,oceania,australia
 5612,rhiannon,dick,rhiannon dick,21/09/1990,f,left-hand-bat,slow-left-arm-orthodox,bowler,oceania,australia
-5615,annie,o'neil,annie o'neil,18/02/1999,f,right-hand-bat,right-arm-offbreak,batsman,oceania,australia
+5615,annie,o neil,annie o neil,18/02/1999,f,right-hand-bat,right-arm-offbreak,batsman,oceania,australia
 5618,kara,sutherland,kara sutherland,26/09/1991,f,left-hand-bat,left-arm-fast-medium,bowler,oceania,australia
 5621,tess,cooper,tess cooper,1/1/1990,f,right-hand-bat,,batsman,oceania,australia
 5624,courtney,hill,courtney hill,9/1/1987,f,right-hand-bat,right-arm-fast-medium,bowler,oceania,australia
@@ -3033,7 +3033,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 7776,waheed,ahmed,waheed ahmed,15/11/1985,m,right-hand-bat,right-arm-fast-medium,wicketkeeper,asia,united arab emirates
 7779,m,poiyamozhi,m poiyamozhi,15/06/1991,m,right-hand-bat,right-arm-fast-medium,bowler,asia,india
 7782,hidde,overdijk,hidde overdijk,29/04/1996,m,right-hand-bat,right-arm-fast-medium,allrounder,europe,netherlands
-7785,darius,d'silva,darius d'silva,16/04/1998,m,right-hand-bat,right-arm-fast-medium,allrounder,asia,united arab emirates
+7785,darius,d silva,darius d silva,16/04/1998,m,right-hand-bat,right-arm-fast-medium,allrounder,asia,united arab emirates
 7788,amy,gordon,amy gordon,3/10/2001,f,right-hand-bat,right-arm-fast-medium,allrounder,europe,england
 7791,alex,griffiths,alex griffiths,6/9/1993,f,right-hand-bat,right-arm-fast-medium,allrounder,europe,england
 7794,ellie,mitchell,ellie mitchell,1/1/2000,f,right-hand-bat,,allrounder,europe,england
@@ -3158,13 +3158,13 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 8157,arshdeep singh,brar,arshdeep singh brar,27/12/1993,m,right-hand-bat,right-arm-offbreak,batsman,asia,india
 8160,rohan,raju,rohan raju,26/06/1996,m,right-hand-bat,right-arm-fast-medium,bowler,asia,india
 8163,harry,adair,harry adair,14/12/1997,m,right-hand-bat,,allrounder,europe,england
-8166,marcus,o'riordan,marcus o'riordan,25/01/1998,m,right-hand-bat,right-arm-offbreak,bowler,europe,england
+8166,marcus,o riordan,marcus o riordan,25/01/1998,m,right-hand-bat,right-arm-offbreak,bowler,europe,england
 8169,okera,bascome,okera bascome,1/1/2000,m,right-hand-bat,,wicketkeeper,north america,bermuda
 8172,allan,douglas,allan douglas,11/5/1987,m,right-hand-bat,,allrounder,north america,bermuda
 8175,onais,bascome,onais bascome,25/05/1995,m,right-hand-bat,right-arm-fast-medium,allrounder,north america,bermuda
 8178,deunte,darrell,deunte darrell,20/09/1992,m,right-hand-bat,right-arm-fast-medium,batsman,north america,bermuda
 8181,derrick,brangman,derrick brangman,24/08/1987,m,left-hand-bat,slow-left-arm-orthodox,allrounder,north america,bermuda
-8184,george,o'brien,george o'brien,16/09/1984,m,right-hand-bat,right-arm-fast-medium,allrounder,north america,bermuda
+8184,george,o brien,george o brien,16/09/1984,m,right-hand-bat,right-arm-fast-medium,allrounder,north america,bermuda
 8187,terryn,fray,terryn fray,30/06/1991,m,right-hand-bat,,batsman,north america,bermuda
 8190,rodney,trott,rodney trott,8/9/1987,m,right-hand-bat,right-arm-offbreak,bowler,north america,bermuda
 8193,timroy,allen,timroy allen,22/01/1987,m,right-hand-bat,right-arm-fast-medium,bowler,north america,usa
@@ -3505,7 +3505,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 9228,kenroy,nestor,kenroy nestor,8/9/1988,m,right-hand-bat,right-arm-fast,batsman,europe,gibraltar
 9231,nikhil,advani,nikhil advani,1/1/2000,m,right-hand-bat,,batsman,europe,gibraltar
 9234,tim,caruana,tim caruana,26/11/1992,m,right-hand-bat,,batsman,europe,gibraltar
-9237,mark,o'bacarese pai,mark o'bacarese pai,1/1/2000,m,right-hand-bat,,allrounder,europe,gibraltar
+9237,mark,o bacarese pai,mark o bacarese pai,1/1/2000,m,right-hand-bat,,allrounder,europe,gibraltar
 9240,matthew,hunter,matthew hunter,10/7/1993,m,right-hand-bat,right-arm-fast-medium,allrounder,europe,gibraltar
 9243,luke,collado,luke collado,13/03/1993,m,right-hand-bat,,wicketkeeper,europe,gibraltar
 9246,raja adeel,iqbal,raja adeel iqbal,2/10/1987,m,right-hand-bat,,bowler,europe,spain
@@ -3772,7 +3772,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 10080,kazumasa,takahashi,kazumasa takahashi,12/9/2003,m,right-hand-bat,right-arm-fast-medium,bowler,asia,japan
 10083,simon,keene,simon keene,21/10/2001,m,right-hand-bat,right-arm-fast-medium,batting allrounder,oceania,new zealand
 10086,nicholas,lidstone,nicholas lidstone,7/9/2001,m,right-hand-bat,,allrounder,oceania,new zealand
-10089,william,o'rourke,william o'rourke,6/8/2001,m,right-hand-bat,right-arm-fast-medium,bowler,oceania,new zealand
+10089,william,o rourke,william o rourke,6/8/2001,m,right-hand-bat,right-arm-fast-medium,bowler,oceania,new zealand
 10092,beckham,wheeler-greenall,beckham wheeler-greenall,3/6/2002,m,right-hand-bat,right-arm-offbreak,allrounder,oceania,new zealand
 10095,sam,fanning,sam fanning,20/10/2000,m,left-hand-bat,right-arm-offbreak,batsman,oceania,australia
 10098,lachlan,hearne,lachlan hearne,19/12/2000,m,left-hand-bat,right-arm-offbreak,batsman,oceania,australia
@@ -3944,7 +3944,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 10620,katene,clarke,katene clarke,21/09/1999,m,right-hand-bat,right-arm-fast-medium,batsman,oceania,new zealand
 10623,finn,allen,finn allen,22/04/1999,m,right-hand-bat,,batsman,oceania,new zealand
 10626,jamie,brown,jamie brown,20/06/1993,m,right-hand-bat,right-arm-fast-medium,bowler,oceania,new zealand
-10629,william,o'donnell,william o'donnell,29/09/1997,m,right-hand-bat,right-arm-offbreak,batsman,oceania,new zealand
+10629,william,o donnell,william o donnell,29/09/1997,m,right-hand-bat,right-arm-offbreak,batsman,oceania,new zealand
 10632,benjamin,lister,benjamin lister,1/1/1996,m,right-hand-bat,left-arm-fast-medium,bowler,oceania,new zealand
 10635,ryan,harrison,ryan harrison,10/10/1999,m,right-hand-bat,right-arm-fast-medium,bowler,oceania,new zealand
 10638,mohammad,sanuth,mohammad sanuth,25/07/1989,m,left-hand-bat,right-arm-offbreak,allrounder,asia,oman
@@ -4048,7 +4048,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 10932,sudeep,tyagi,sudeep tyagi,17/09/1987,m,right-hand-bat,right-arm-fast-medium,bowler,asia,india
 10935,ben,ashkenazi,ben ashkenazi,5/10/1994,m,left-hand-bat,right-arm-fast-medium,bowler,oceania,australia
 10938,jayde,herrick,jayde herrick,16/01/1985,m,right-hand-bat,right-arm-fast-medium,bowler,oceania,australia
-10941,aaron,o'brien,aaron o'brien,2/10/1981,m,left-hand-bat,slow-left-arm-orthodox,batsman,oceania,australia
+10941,aaron,o brien,aaron o brien,2/10/1981,m,left-hand-bat,slow-left-arm-orthodox,batsman,oceania,australia
 10944,travis,birt,travis birt,9/12/1981,m,,,batsman,oceania,australia
 10947,ryan,lees,ryan lees,16/02/1994,m,right-hand-bat,right-arm-fast,bowler,oceania,australia
 10950,sean,willis,sean willis,6/1/1995,m,right-hand-bat,right-arm-fast-medium,allrounder,oceania,australia
@@ -4374,7 +4374,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 11922,phillip,hull,phillip hull,1/1/2000,m,,,allrounder,oceania,australia
 11925,jack,giacomo,jack giacomo,1/1/2000,m,,,bowler,oceania,australia
 11928,brandon,richards,brandon richards,1/1/2000,m,,,batsman,oceania,australia
-11931,bevan,o'reilly,bevan o'reilly,1/1/2000,m,,,allrounder,oceania,australia
+11931,bevan,o reilly,bevan o reilly,1/1/2000,m,,,allrounder,oceania,australia
 11934,coen,mckinnon,coen mckinnon,1/1/2000,m,,,bowler,oceania,australia
 11937,damon,krake,damon krake,1/1/2000,m,,,bowler,oceania,australia
 11940,charlie,smith,charlie smith,1/1/2000,m,,,batsman,oceania,australia
@@ -4437,7 +4437,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 12111,amrik,singh,amrik singh,1/1/2001,m,,,bowler,oceania,australia
 12114,daniel,christianson,daniel christianson,1/1/2001,m,,,bowler,oceania,australia
 12117,abbas,khan,abbas khan,1/1/2001,m,,,allrounder,europe,finland
-12120,jordan,o'brien,jordan o'brien,1/1/2001,m,,,wicketkeeper,europe,finland
+12120,jordan,o brien,jordan o brien,1/1/2001,m,,,wicketkeeper,europe,finland
 12123,kamalraj,chandrasekeran,kamalraj chandrasekeran,1/1/2001,m,,,allrounder,europe,finland
 12126,athi,maposa,athi maposa,22/04/1990,m,,,allrounder,africa,south africa
 12129,dillon du,preez,dillon du preez,8/11/1981,m,,,allrounder,africa,south africa
@@ -6655,7 +6655,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 18915,tirth,patel,tirth patel,1/1/2001,m,,,allrounder,europe,bulgaria
 18918,ashbel,nicson,ashbel nicson,14/10/1997,m,left-hand-bat,right-arm-fast-medium,bowler,europe,bulgaria
 18921,ishaan de,silva,ishaan de silva,1/1/2001,m,,,batsman,europe,bulgaria
-18924,kevin,d'souza,kevin d'souza,16/09/1998,m,right-hand-bat,right-arm-offbreak,batsman,asia,india
+18924,kevin,d souza,kevin d souza,16/09/1998,m,right-hand-bat,right-arm-offbreak,batsman,asia,india
 18927,omar,rasool,omar rasool,12/9/1997,m,right-hand-bat,,bowler,europe,republic of ireland
 18930,huzaif,yusuf,huzaif yusuf,1/1/2001,m,,,bowler,europe,bulgaria
 18933,shivang,keshvala,shivang keshvala,1/1/2001,m,,,bowler,europe,bulgaria
@@ -12494,7 +12494,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 36929,tasos,manousis,tasos manousis,19/08/1978,m,left-hand-bat,,batsman,europe,greece
 36932,taranjit,singh,taranjit singh,31/01/1994,m,right-hand-bat,right-arm-fast-medium,allrounder,europe,cyprus
 36935,blake,nikitaras,blake nikitaras,29/04/2000,m,left-hand-bat,,batsman,oceania,australia
-36938,fergus,o'neil,fergus o'neil,1/1/2001,m,right-hand-bat,,batsman,oceania,australia
+36938,fergus,o neil,fergus o neil,1/1/2001,m,right-hand-bat,,batsman,oceania,australia
 36941,rick,firth,rick firth,1/1/2000,m,left-hand-bat,right-arm-fast-medium,allrounder,oceania,australia
 36944,scott,johnston,scott johnston,6/2/1997,m,right-hand-bat,right-arm-fast,allrounder,oceania,new zealand
 36947,shamima,akhter,shamima akhter,28/11/1988,f,right-hand-bat,right-arm-fast-medium,allrounder,asia,bangladesh
@@ -13125,7 +13125,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 38843,harry,bharwal,harry bharwal,5/12/1990,m,left-hand-bat,slow-left-arm-orthodox,allrounder,asia,united arab emirates
 38846,shahnawaz,khan,shahnawaz khan,26/08/1992,m,right-hand-bat,right-arm-offbreak,allrounder,asia,united arab emirates
 38849,mohammad amin,khan,mohammad amin khan,1/1/2000,m,,,bowler,asia,bangladesh
-38852,ethan carl,d'souza,ethan carl d'souza,1/1/2000,m,left-hand-bat,,batsman,asia,united arab emirates
+38852,ethan carl,d souza,ethan carl d souza,1/1/2000,m,left-hand-bat,,batsman,asia,united arab emirates
 38855,adnan,danish,adnan danish,30/10/1995,m,right-hand-bat,,allrounder,asia,pakistan
 38858,atta ur,rahim,atta ur rahim,1/1/1997,m,left-hand-bat,right-arm-fast,allrounder,asia,united arab emirates
 38861,naik,muhammad,naik muhammad,1/1/2000,m,right-hand-bat,right-arm-offbreak,allrounder,asia,united arab emirates
@@ -14327,7 +14327,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 42509,john,matchett,john matchett,22/07/1997,m,right-hand-bat,right-arm-fast-medium,batsman,europe,ireland republic
 42512,jared,wilson,jared wilson,1/1/2000,m,,,batsman,europe,ireland republic
 42515,cian,robertson,cian robertson,1/1/2000,m,,slow-left-arm-orthodox,bowler,europe,ireland republic
-42518,mikey,o'reilly,mikey o'reilly,2/7/2002,m,right-hand-bat,left-arm-fast-medium,bowler,europe,ireland republic
+42518,mikey,o reilly,mikey o reilly,2/7/2002,m,right-hand-bat,left-arm-fast-medium,bowler,europe,ireland republic
 42521,carson,mccullough,carson mccullough,28/02/2005,m,right-hand-bat,,batsman,europe,ireland republic
 42524,cameron,melly,cameron melly,1/1/2000,m,,,bowler,europe,ireland republic
 42527,finn,catherwood,finn catherwood,1/1/2000,m,,,bowler,europe,ireland republic
@@ -15185,7 +15185,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 45128,kudzai,maunze,kudzai maunze,10/4/1991,m,right-hand-bat,right-arm-offbreak,allrounder,africa,zimbabwe
 45131,tafadzwa,tsiga,tafadzwa tsiga,13/07/1994,m,right-hand-bat,right-arm-fast-medium,wicketkeeper,africa,zimbabwe
 45134,annie,ewart,annie ewart,1/1/2000,f,,,allrounder,oceania,new zealand
-45137,ma'ara,ave,ma'ara ave,6/7/1998,m,right-hand-bat,,wicketkeeper,oceania,cook islands
+45137,ma ara,ave,ma ara ave,6/7/1998,m,right-hand-bat,,wicketkeeper,oceania,cook islands
 45140,abdul,qadeer,abdul qadeer,1/1/2000,m,,,allrounder,europe,malta
 45143,adnan,anwar,adnan anwar,12/12/1989,m,right-hand-bat,right-arm-fast-medium,wicketkeeper,asia,pakistan
 45146,atif,bilal,atif bilal,1/1/2000,m,,,bowler,europe,malta
@@ -15580,7 +15580,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 46331,amir,khan,amir khan,15/09/2005,m,left-hand-bat,right-arm-offbreak,batsman,europe,england
 46334,che,simmons,che simmons,18/12/2003,m,right-hand-bat,right-arm-fast-medium,bowler,north america,barbados
 46337,nathan,fernandes,nathan fernandes,26/04/2004,m,left-hand-bat,slow-left-arm-orthodox,batsman,europe,england
-46340,daniel,o'driscoll,daniel o'driscoll,10/10/2002,m,right-hand-bat,,wicketkeeper,europe,england
+46340,daniel,o driscoll,daniel o driscoll,10/10/2002,m,right-hand-bat,,wicketkeeper,europe,england
 46343,ishaan,kaushal,ishaan kaushal,9/2/2002,m,right-hand-bat,right-arm-fast-medium,bowler,europe,england
 46346,george,gowler,george gowler,21/10/2003,m,right-hand-bat,right-arm-fast-medium,bowler,europe,england
 46349,george,weldon,george weldon,17/05/2004,m,right-hand-bat,right-arm-fast-medium,bowler,europe,england
@@ -16894,7 +16894,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 50378,abdul,muiz,abdul muiz,7/12/1997,m,,,bowler,europe,czech republic
 50381,adnan,mohd,adnan mohd,23/12/2000,m,,,batsman,europe,czech republic
 50384,chris,tebb,chris tebb,25/11/1982,m,,,allrounder,europe,england
-50387,danny,o'connor,danny o'connor,3/11/2008,m,,,bowler,europe,czech republic
+50387,danny,o connor,danny o connor,3/11/2008,m,,,bowler,europe,czech republic
 50390,eric,walker,eric walker,3/9/1977,m,,,allrounder,europe,czech republic
 50393,henry,wood,henry wood,14/02/2008,m,,,batsman,europe,czech republic
 50396,joe,jacob,joe jacob,16/01/1992,m,,,bowler,europe,czech republic
@@ -17063,7 +17063,7 @@ id,firstname,lastname,fullname,dateofbirth,gender,batting-style,bowlingstyle,pos
 50891,bhuvan,raju,bhuvan raju,1/1/2000,m,,,batsman,asia,india
 50894,aashish,mahesh,aashish mahesh,1/1/2000,m,,,batsman,asia,india
 50897,finley,hill,finley hill,21/06/2006,m,right-hand-bat,right-arm-fast-medium,allrounder,europe,england
-50900,nathan,d'mello,nathan d'mello,1/1/2001,m,right-hand-bat,,bowler,asia,india
+50900,nathan,d mello,nathan d mello,1/1/2001,m,right-hand-bat,,bowler,asia,india
 50903,gnaneshwer,naveen,gnaneshwer naveen,24/05/1994,m,right-hand-bat,,bowler,asia,india
 50906,paras,gurbax arya,paras gurbax arya,1/1/2001,m,right-hand-bat,,allrounder,asia,india
 50909,harry,moore,harry moore,26/04/2007,m,right-hand-bat,right-arm-fast-medium,allrounder,europe,england
